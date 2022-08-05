@@ -1,4 +1,4 @@
-# tailwindcss
+# [tailwindcss](https://tailwindcss.com/)
 
 ## 開発環境
 ```bash
@@ -19,3 +19,19 @@ npm run build
 6. あとはhtml内のclassにスタイルを当てていくだけ！！
 7. スタイル当て終わったら(開発が完了したら)`npm run dev`を落として`npm run build`する(dist.cssがなんと1行になる！)
 8. 納品やデプロイする時はhtmlとdist.cssのみでOK
+
+## tailwind cssのいいところ
+- `text-red-700`とか`font-bold`とか何のスタイルが当たっているのか直感的に分かりやすい
+- cssを書かず、classを書くのみでいい
+- レスポンシブに強い
+- ベンダープレフィックス(`-webkit`とか`-moz`)を勝手につけてくれるからブラウザ対応も安心
+- hover等も簡単に実装できる
+- buildしたら不要なcssを排除してくれるので軽くなりパフォーマンスが良い
+- 割と最近のモダンなフレームワーク
+- 流行ってる
+- イケイケ
+- かっこいい
+- かわいい
+- おしゃれ
+- モテる
+- うまい、早い、安い
