@@ -1,0 +1,19 @@
+{
+  "name": "fujirec",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "postcss styles.css -o dist.css -w",
+    "build": "NODE_ENV=production postcss styles.css -o dist.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.8",
+    "cssnano": "^5.1.12",
+    "postcss-cli": "^10.0.0",
+    "tailwindcss": "^3.1.7"
+  }
+}
