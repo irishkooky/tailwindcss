@@ -6,4 +6,6 @@ npm run dev
 ```
 
 ## 本番環境
-``npm run build``
+```bash
+npm run build
+```
