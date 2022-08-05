@@ -14,6 +14,7 @@ npm run build
 1. フォークして自分のリポジトリに追加する
 2. クローンする
 3. クローンしてきたディレクトリ内に`index.html`等のtailwind cssを使ってスタイルを当てたいhtmlファイルを入れる
+   (`index.html`以外の名前にする時はここをいじるhttps://github.com/irishkooky/tailwindcss/blob/bf18abb62c09f1cbc50ec1149b5db6a723fa9c54/tailwind.config.js#L3)
 4. `<link rel="stylesheet" href="dist.css">`でcssを読み見込むようにする。(reset.cssは必要)
 5. `npm run dev`でtailwind cssを動かす(watchさせて自動でdist.cssにコンパイルされるような仕組みにしている)
 6. あとはhtml内のclassにスタイルを当てていくだけ！！
