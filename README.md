@@ -1,7 +1,9 @@
 # tailwindcss
 
 ## 開発環境
-``npm run dev``
+```bash
+npm run dev
+```
 
 ## 本番環境
 ``npm run build``
